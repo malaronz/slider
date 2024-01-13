@@ -1,0 +1,403 @@
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 340px;
+    }
+    
+    .navigation {
+        display: none;
+    }
+
+    .logo a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .rostov {
+        height: 476px;
+        padding-top: 85px;
+    }
+
+    .title {
+        font-size: 23px;
+        line-height: 132.83%;
+        padding: 0;
+        margin-bottom: 16px;
+        
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 135.84%;
+        padding: 0;
+        margin-bottom: 32px;
+    }
+
+    .buttons-rostov {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .button {
+        display: flex;
+        flex-grow: 1;
+        margin-bottom: 26px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-rostov {
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .button-none {
+        padding: 0;
+    }
+
+    .button-nav {
+        display: none;
+    }
+
+    .completed {
+        padding-top: 36px;
+        padding-bottom: 890px;
+        margin-bottom: 58px;
+    }
+
+    .variant {
+        display: none;
+    }
+
+    .left-right {
+        display: none;
+    }
+
+    .flat {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .flat-info {
+        width: auto;
+    }
+
+    .flat-menu {
+        margin-top: 314px;
+        height: 156px;
+        margin-bottom: 0;
+    }
+
+    .completed-foto {
+        background-image: url(image/flat-mobil.jpg);
+        height: 241px;
+        width: 340px;
+        position: absolute;
+        top: 190px;
+    }
+
+    .round {
+        width: 36px;
+        height: 36px;
+        background: #E3B873;
+        border-radius: 50%;
+        margin: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subtitle {
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 22px;
+        width: 225px;
+    }
+
+    .text {
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+    }
+
+    .h3 {
+        font-size: 14px;
+        line-height: 138.6%;
+        margin-bottom: 11px;
+    }
+
+    .small-text {
+        font-size: 11px;
+        line-height: 18px;
+        margin-bottom: 27px;
+    }
+    
+    .online {
+        top: 1286px;
+    }
+
+    .h3-white {
+       font-size: 22px;
+       margin-bottom: 20px;
+    }
+
+    .href {
+        margin-bottom: 40px;
+    }
+
+    .online-camera {
+        width: 340px;
+        height: 207px;
+        background-size: cover;
+        margin-bottom: 28px;
+    }
+
+    .play {
+        width: 37px;
+        height: 37px;
+        background-image: url(icon/play-mobil.svg);
+    }
+
+    .big-text {
+        width: auto;  
+        font-size: 11px;
+        line-height: 169.8%;
+        color: #FFFFFF;
+        margin-top: 22px;
+        margin-bottom: 30px;
+    }
+
+    .form {
+        flex-direction: column;
+        width: 340px;
+    }
+
+    .form-item {
+        margin-right: 0;
+        margin-bottom: 27px;
+        margin-top: 38px;
+    }
+
+    .text-label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .text-field {
+        width: auto;
+        line-height: 138.72%;
+        color: #FFFFFF;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .text-field::placeholder {
+        line-height: 138.72%;
+        color: #FFFFFF;
+    }
+
+    .button-form {
+        width: auto;
+        order: 1;
+        margin-top: 62px;
+        margin-bottom: 0;
+    }
+
+    .text-check {
+        color: #FFFFFF;
+    }
+
+    .types-of-repair {
+        background-image: none;
+    }
+
+    .types {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .type {
+        margin-bottom: 59px;
+    }
+
+    .type-foto {
+        margin-bottom: 78px;
+    }
+
+    .type-info {
+        margin: 0;
+        right: auto;
+        bottom: 40px;
+        width: 270px;
+        padding-top: 21px;
+    }
+
+    .h3-black {
+        font-size: 22px;
+        margin-bottom: 17px;
+    }
+
+    .ul {
+        margin-top: 10px;
+    }
+
+    .text-ul-title {
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .text-ul {
+        line-height: 169.8%;
+    }
+
+    .button-type {
+        font-size: 15px;
+        line-height: 138.6%;
+        width: 190px;
+        height: 40px;
+        margin-left: 0;
+    }
+
+    .works {
+        display: none;
+    }
+
+    .save {
+        display: none;
+    }
+
+    .fantasies {
+        padding-top: 0;
+        background-image: none;
+        height: auto;
+    }
+
+    .fantasies-mobil {
+        display: flex;
+        background-image: url(image/fantasy-mobil.jpg);
+        position: absolute;
+        top: 84px;
+        z-index: 1;
+        justify-content: space-between;
+        align-items: center;
+        width: 340px;
+        height: 242px;
+    }
+
+    .subtitle-fantasy {
+        width: auto;
+        margin-bottom: 145px;
+        padding: 0 15px;
+    }
+
+    .text-fantasy {
+        display: none;
+    }
+
+    #american_clock {
+        display: none;
+    }
+    
+    #american_tv {
+        display: none;
+    }
+    
+    #american_room {
+        display: none;
+    }
+    
+    #american_table {
+        display: none;
+    }
+
+    .fantasies-overlay {
+        display: none;
+    }
+
+    .our-clients {
+        padding-top: 173px;
+        padding-bottom: 0; 
+        background-color: black;
+    }
+
+    .clients-out-mobil {
+        display: none;
+    }
+
+    .clients-overlay {
+        display: none;
+    }
+
+    .form-client {
+        position: relative;
+        top: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .h3-white-mobil {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .form-items {
+        margin-top: 52px;
+    }
+
+    .form-item-client {
+        flex-grow: 1;
+        margin-bottom: 63px;
+    }
+
+    .item-qestion {
+        margin-bottom: 21px;
+    }
+
+    .client-align {
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .button-form-client {
+        margin-top: 28px;
+        width: 340px;
+    }
+
+    .map {
+        background-image: none;
+        background-color: black;
+        padding-top: 342px;
+        padding-bottom: 50px;
+        height: auto;
+    }
+
+    .h3-map {
+        width: auto;
+        font-size: 18px;
+        margin-bottom: 23px;
+    }
+
+    .map-icon {
+        width: 39px;
+        height: 39px;
+    }
+
+    .map-foto {
+        position: absolute;
+        bottom: 175px;
+    }
+
+    .map-desktop {
+        display: none;
+    }
+
+    .map-mobil {
+        display: inline;
+    }
+
+    .footer {
+        display: none;
+    }
+  }
